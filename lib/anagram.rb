@@ -7,10 +7,7 @@ class Anagram
     @words = words
   end
   
-  def detector
-    @words.split.collect.sort
-    @words.match(possible.split.sort) ? :possible : nil
-  end
+  def 
     
 
   
