@@ -8,7 +8,7 @@ class AnagramDetector
   end
   
   def anagram
-    split_phares = words.split.collect {|word| }
+    split_phares = words.split.collect {|word| word.split.sort}
   end
   
 end
