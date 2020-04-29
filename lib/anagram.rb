@@ -1,4 +1,10 @@
 # Your code goes here!
-class X
+class AnagramDetector
+  
+  attr_accessor :words
+  
+  def anagram
+    
+  end
   
 end
