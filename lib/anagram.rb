@@ -7,7 +7,6 @@ class AnagramDetector
     @words = words
   end
   
-  
   def anagram
     
   end
