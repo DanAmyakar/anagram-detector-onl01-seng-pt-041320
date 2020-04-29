@@ -8,7 +8,8 @@ class Anagram
   end
   
   def match(array_of_words)
-    array_of_words.select do ||
+    array_of_words.select do |el|
+      
     
 
   
