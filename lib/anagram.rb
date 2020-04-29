@@ -9,7 +9,7 @@ class Anagram
   
   def anagram_detector
     @words.split.collect.sort
-    @words.match(:possible.split.sort) ? :possible : nil
+    @words.match(possible.split.sort) ? :possible : nil
   end
     
 
