@@ -1,5 +1,5 @@
 # Your code goes here!
-class AnagramDetector
+class Anagram
   
   attr_accessor :words
   
@@ -7,8 +7,6 @@ class AnagramDetector
     @words = words
   end
   
-  def anagram
-    split_phares = words.split.collect {|word| word.split.sort}
-  end
+
   
 end
